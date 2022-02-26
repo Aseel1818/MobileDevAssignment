@@ -14,7 +14,7 @@
 			<MessageBox Text="Name : Aseel Hamayel
 						Age : 20 
 						
-						University track : CAP" FontSize="large" TextColo="Black" Color="White"/>
+						University track : CAP" FontSize="large" TextColor="Black" Color="White"/>
 
 		</Stacklayou>
 	</ContentPage.Content>
