@@ -1,0 +1,33 @@
+in this assignment I create 3 folders :
+1- Mdel
+2-ModelView
+3-View
+
+
+1- Folder Model :
+have 3 classes of type c#
+
+1. one for user 
+2. second for admin 
+3. third for staff
+
+And I put the properities of each one of these classes,
+
+then I create a c# class inside   Model View Folder and I put in it the operations that user  can do like ( add staff object,add admin object,add user object,update object ,delete object )
+And I store objects in observable collection .
+
+  Next , I declare an exceptions for the 3  required situations :
+  a. User enters invald data for example, id is int , name is string .. etc
+b. User tries to add a new user with a duplicate id.
+c. User tries to update/delete a user that is not found.
+
+So the program will throw exception when these situations are occured :
+
+a- for invalid data exception I check the type of arguments if it's valid and the same like parameter type.
+b-for duplicate id I check if the observable colllection have the same id that will pass .
+c-for update and delete a not found user ,I check if the passed id does not match any id from the collection it will throw an exception.
+
+
+finally :
+1- I create a c# class inside view folder , that have a method to print all exceptions occures in the program.
+2-I try to use the delegate event to listen to the changes happend in the system (add,update and delete objects).
